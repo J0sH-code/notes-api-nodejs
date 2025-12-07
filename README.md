@@ -99,7 +99,10 @@ Deletes a note by ID.
 
 ```
 .
-├── server.js          # Main application
+├── index.js          # Main application
+├── getJSON.js        # Connects to stored notes
+├── utils.js          # Utility funtions for routes
+├── validators.js     # Input validators
 ├── notes.json         # Stored notes
 ├── package.json
 └── README.md
